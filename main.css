@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #e6eff5;
+}
+
+.info {
+  grid-area: main;
+    background: #ffffff;
+    border-radius: 8px 8px 0 0;
+}
+
+.info__title {
+  font-size: 24px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.info__line {
+  font-size: 18px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-left: 40px;
+  color: #c0df33;
+}
+
+.info__desc {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  color: #9aa7be;
+  margin-left: 40px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  margin-top: 11px;
+}
+
+.container {
+  width: 635px;
+  height: 475px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "main main"
+    "price features";
+  margin: 163px auto;
+}
+
+.price {
+  grid-area: price;
+  background: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 8px;
+}
+
+.price__title,
+.price__amount,
+.price__benefit,
+.price__cta {
+  margin-left: 40px;
+}
+
+.price__title {
+  margin-top: 40px;
+  font-family: 'Karla',sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+.price__amount {
+  margin-top: 18px;
+}
+
+.price__amount--big {
+  font-size: 32px;
+  font-family: 'Karla',sans-serif;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+  vertical-align: middle;
+  margin-right: 11px;
+}
+
+.price__amount--normal {
+  color: #ffffff;
+  font-family: 'Karla',sans-serif;
+  font-weight: 400;
+  opacity: 0.5;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+
+.price__benefit {
+  margin-top: 4px;
+  font-family: 'Karla',sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.price__cta {
+  margin-top: 26px;
+  width: 237px;
+  height: 48px;
+  text-align: center;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  background: #c0df33;
+  border-radius: 5px;
+}
+
+.price__cta a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Karla',sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  position: relative;
+  top: 15px;
+}
+
+.features {
+  grid-area: features;
+  background: hsl(179, 62%, 43%);
+  border-bottom-right-radius: 8px;
+}
+
+.features__question,
+.features__list {
+  margin-left: 40px;
+}
+
+.features__question {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: 'Karla',sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.features__list ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.features__list ul li {
+  color: #ffffff;
+  font-family: 'Karla',sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  opacity: 0.75;
+}
+

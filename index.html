@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="main.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
-
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="info">
+          <div class="info__title">Join our community</div>
+          <div class="info__line">30-day, hassle-free money back guarantee</div>
+          <div class="info__desc">
+            Gain access to our full library of tutorials along with expert code
+            reviews.<br />
+            Perfect for any developers who are serious about honing their
+            skills.
+          </div>
+        </div>
+        <div class="price">
+          <div class="price__title">Monthly Subscription</div>
+          <div class="price__amount">
+            <span class="price__amount--big">&dollar;29</span
+            ><span class="price__amount--normal">per month</span>
+          </div>
+          <div class="price__benefit">
+            Full access for less than &dollar;1 a day
+          </div>
+          <div class="price__cta">
+            <a href="#">Sign Up</a>
+          </div>
+        </div>
+        <div class="features">
+          <div class="features__question">Why Us</div>
+          <div class="features__list">
+            <ul>
+              <li>Tutorials by industry experts</li>
+              <li>Peer &amp; expert code review</li>
+              <li>Coding exercises</li>
+              <li>Access to our GitHub repos</li>
+              <li>Community forum</li>
+              <li>Flashcard decks</li>
+              <li>New videos every week</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
