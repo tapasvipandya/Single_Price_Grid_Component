@@ -10,8 +10,8 @@ body {
 
 .info {
   grid-area: main;
-    background: #ffffff;
-    border-radius: 8px 8px 0 0;
+  background: #ffffff;
+  border-radius: 8px 8px 0 0;
 }
 
 .info__title {
@@ -68,7 +68,7 @@ body {
 
 .price__title {
   margin-top: 40px;
-  font-family: 'Karla',sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: #ffffff;
@@ -79,7 +79,7 @@ body {
 
 .price__amount--big {
   font-size: 32px;
-  font-family: 'Karla',sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   line-height: 37px;
   letter-spacing: -0.4px;
@@ -90,7 +90,7 @@ body {
 
 .price__amount--normal {
   color: #ffffff;
-  font-family: 'Karla',sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 400;
   opacity: 0.5;
   line-height: 26px;
@@ -99,7 +99,7 @@ body {
 
 .price__benefit {
   margin-top: 4px;
-  font-family: 'Karla',sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 400;
   color: #ffffff;
 }
@@ -114,10 +114,10 @@ body {
   border-radius: 5px;
 }
 
-.price__cta a{
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Karla',sans-serif;
+.price__cta a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   letter-spacing: -0.2px;
   line-height: 19px;
@@ -127,7 +127,7 @@ body {
 
 .features {
   grid-area: features;
-  background: hsl(179, 62%, 43%);
+  background: rgba(42, 179, 177,0.75);
   border-bottom-right-radius: 8px;
 }
 
@@ -139,7 +139,7 @@ body {
 .features__question {
   margin-top: 40px;
   font-size: 18px;
-  font-family: 'Karla',sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 700;
   color: #ffffff;
 }
@@ -152,11 +152,10 @@ body {
 
 .features__list ul li {
   color: #ffffff;
-  font-family: 'Karla',sans-serif;
+  font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.175px;
   opacity: 0.75;
 }
-
