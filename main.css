@@ -127,7 +127,7 @@ body {
 
 .features {
   grid-area: features;
-  background: rgba(42, 179, 177,0.75);
+  background: rgba(42, 179, 177, 0.75);
   border-bottom-right-radius: 8px;
 }
 
@@ -158,4 +158,51 @@ body {
   line-height: 20px;
   letter-spacing: -0.175px;
   opacity: 0.75;
+}
+
+/* media query for mobile layout */
+
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 311px;
+    height: 722px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "main"
+      "price"
+      "features";
+  }
+
+  .info__title,
+  .info__line,
+  .info__desc,
+  .price__title,
+  .price__amount,
+  .price__benefit,
+  .features__question,
+  .features__list {
+    margin-left: 24px;
+  }
+
+  .info__title {
+    font-size: 20px;
+  }
+  .info__line {
+    font-size: 15px;
+  }
+  .info__desc {
+    font-size: 14px;
+  }
+  .price__title {
+    margin-top: 24px;
+  }
+  .features__question {
+    margin-top: 24px;
+  }
+  .features,
+  .price {
+    border-radius: 0;
+  }
 }
